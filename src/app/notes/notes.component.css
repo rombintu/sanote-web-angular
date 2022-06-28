@@ -1,0 +1,13 @@
+.buttonAddNote {
+    /* width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid rgb(43, 43, 235); */
+    color:#0D6EFD;
+    text-align: center;
+    position: fixed;
+    /* padding: 10px;
+    cursor: pointer; */
+    right: 5%;
+    bottom: 5%;
+}

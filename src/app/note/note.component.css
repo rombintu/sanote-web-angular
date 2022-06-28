@@ -1,0 +1,24 @@
+/* #note {
+    padding: 3%;
+    border: 1px solid gray;
+} */
+
+.prefix {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#note {
+    animation-duration: 5s;
+    animation-name: showNote;
+}
+
+@keyframes showNote {
+    from {
+        color: gray;
+    }
+    to {
+        color: black;
+    }
+}

@@ -1,0 +1,15 @@
+<input type="text" class="form-control"
+    placeholder="Оглавление"
+    [(ngModel)]="noteTitle"
+>
+<textarea type="text" class="form-control"
+    placeholder="Пишите..."
+    [(ngModel)]="noteBody"
+></textarea>
+<button class="btn btn-primary"
+    (click)="addNote()"
+>
+    Добавить
+</button>
+
+<hr>
